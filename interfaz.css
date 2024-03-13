@@ -1,0 +1,138 @@
+.espacio{
+  color: #ffffff;
+}
+.fig1 {
+  background: #6592;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#rec {
+  width: 300px;
+  height: 150px;
+  background: red;
+}
+.circulo {
+  position: absolute;
+  border-radius: 50%;
+}
+#c1 {
+  background: rgb(255, 255, 255);
+  height: 250px;
+  width: 250px;
+}
+#c2 {
+  background: rgb(0, 0, 0);
+  height: 150px;
+  width: 150px;
+}
+#c3 {
+  background: cyan;
+  height: 50px;
+  width: 50px;
+}
+.fig2 {
+  margin-top: 200px;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fig2 div {
+  height: 100px;
+}
+#left {
+  width: 140px;
+  background: #F7EC7D;
+}
+#right {
+  width: 60px;
+  background: #E38F66;
+}
+#left:before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 50%;
+  position: relative;
+  right: 20px;
+  bottom: 20px;
+  box-shadow: 200px 0px #ffffff, 0px 100px #ffffff, 200px 100px #ffffff, 140px 0px 0px -10px #ffffff, 140px 100px 0px -10px #ffffff;
+}
+.fig3 {
+margin-top: 600px;
+  background: #ffffff;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 500px;
+}
+.fig3 div {
+  background: #ff9797;
+  position: absolute;
+}
+#rectangle {
+  width: 100%;
+  height: 150px;
+}
+#square {
+  width: 150px;
+  height: 150px;
+  transform: rotate(45deg);
+  box-shadow: 0px 0px 0px 50px #222730;
+}
+#circle {
+  background: #393E46;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.fig4 {
+  background: #fdfdfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fig4 div {
+  width: 100px;
+  height: 100px;
+  background: #39ff49;
+  border-radius: 0 0 50% 50%;
+  margin-top: 100px;
+}
+#mirror {
+  transform: scaleY(-1);
+  margin-top: -100px;
+}
+.fig5 {
+  background: #ffffff;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.fig5 div {
+  width: 100px;
+  height: 150px;
+  background: #18d606;
+  border-radius: 50px 50px 0px 0px;
+}
+#middle {
+  height: 250px;
+}
+.fig5 div:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100px;
+  background: #3a2013;
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 0px 20px #69001c;
+}
+#middle:before {
+  background: #ff0044;
+  box-shadow: inset 0px 0px 0px 20px #ff5500
+}
